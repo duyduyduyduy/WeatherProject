@@ -1,0 +1,31 @@
+.loadercontent {
+  border: 3px solid #d3d3d3;
+  border-radius: 50%;
+  border-top: 3px solid #3ff5fc;
+  width: 30px;
+  height: 30px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  top: 100px;
+  z-index: 3;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

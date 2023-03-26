@@ -1,0 +1,156 @@
+.ContainerBigcontainer {
+  background: white;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  padding: 40px 40px 20px 40px;
+  margin-top: 70px;
+}
+.upperContainer {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.upperContainer > div {
+  width: 310px;
+  height: 280px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.4);
+}
+.tempcontainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 20px 20px 20px;
+  box-sizing: border-box;
+  width: auto;
+}
+.tempcontainer > h1 {
+  color: #00438b;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.tempcontainer > p {
+  color: #00438b;
+  font-weight: bolder;
+  font-size: 70px;
+}
+.tempcontainer > span {
+  color: #00438b;
+  font-weight: bolder;
+}
+.titlecontainer {
+  background: #6b8dae;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.currentInfoContainer {
+  display: flex;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 20px;
+}
+.titlename {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.titlename > p {
+  color: #00438b;
+  font-weight: bolder;
+}
+.stastistic {
+  width: 50%;
+  height: 100%;
+  background-color: #00438b;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.stastistic > p {
+  color: white;
+  font-weight: bolder;
+}
+.digitalClock {
+  border: 10px solid #013145;
+  background: linear-gradient(45deg, #023d57, #0979aa);
+  color: white;
+  font-weight: bolder;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 10px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.digitalClock {
+  color: white;
+  height: 280px;
+  width: 310px;
+  font-weight: bolder;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 163px;
+  right: 25px;
+}
+.nextdayInfoContainer {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.nextDayInfoContainer {
+  width: 12.5%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.nextDayInfo {
+  transition: 0.3s;
+  background: #036bdb;
+  width: 100%;
+  height: 160px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nextDayInfo:active {
+  transform: translateY(2px);
+}
+.nextDayInfo:hover {
+  background: #3d8ee4;
+}
+.modalContainer {
+  position: absolute; /* Sit on top of the page content */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

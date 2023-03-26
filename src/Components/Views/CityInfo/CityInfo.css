@@ -1,0 +1,19 @@
+.cityInfoContainer {
+  /* max-width: 320px;
+  min-width: 320px; */
+  width: 320px;
+  height: 100vh;
+  background: #5dabff;
+  box-sizing: border-box;
+  padding: 20px 35px 10px 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+.cityInfoContainer > input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
