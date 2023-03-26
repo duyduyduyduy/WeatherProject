@@ -13,8 +13,7 @@ My project, was built by ReactJS, aimed to allow user to get information about t
 - SCSS
 - Javascript
 - Redux/Redux-saga
-## API: 
-Use open-source api: https://openweathermap.org/api
+
 ## Usage
 
 The easiest way to show hoe this project works is to watch youtube video that I linked below, but you need to install the app first by following the steps in _installation_ section
@@ -24,7 +23,3 @@ The easiest way to show hoe this project works is to watch youtube video that I 
 1.  Clone this project
 2.  npm i
 3.  npm start
-
-
-- Youtube Demo Link: https://www.youtube.com/watch?v=oeoqErqCIHU
-- Demo Link: https://thunderous-tartufo-2ddfbb.netlify.app/
