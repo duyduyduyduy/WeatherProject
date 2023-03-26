@@ -26,5 +26,5 @@ The easiest way to show hoe this project works is to watch youtube video that I 
 3.  npm start
 
 
-Youtube Demo Link: https://www.youtube.com/watch?v=oeoqErqCIHU
-Demo Link: https://thunderous-tartufo-2ddfbb.netlify.app/
+- Youtube Demo Link: https://www.youtube.com/watch?v=oeoqErqCIHU
+- Demo Link: https://thunderous-tartufo-2ddfbb.netlify.app/
